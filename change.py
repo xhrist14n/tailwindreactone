@@ -5,9 +5,9 @@ file_path = "build/index.html"
 with open(file_path, "r", encoding="utf-8") as file:
     content = file.read()
 
-# Replace href="/" with href="/reactone/"
-content = content.replace('href="/', 'href="/reactone/')
-content = content.replace('src="/', 'src="/reactone/')
+# Replace href="/" with href="/tailwindreactone/"
+content = content.replace('href="/', 'href="/tailwindreactone/')
+content = content.replace('src="/', 'src="/tailwindreactone/')
 
 print(content)
 
